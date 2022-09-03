@@ -29,7 +29,6 @@ ____
 POST / HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
-Content-Length: 57
 
 [
         "http://habrahabr.ru"
