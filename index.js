@@ -64,7 +64,7 @@ const getThreeLongestWordsArray = async (payload) =>{
                         return a[1] - b[1];
                     })
                     sortable.reverse()
-                    let result = [payload[k],sortable[0][0]+'-'+sortable[0][1],sortable[1][0]+'-'+sortable[1][1],sortable[2][0]+'-'+sortable[2][1]]
+                    let result = [payload[k],sortable[0][0],sortable[1][0],sortable[2][0]]
                     arr.push(result)
                     k = k + 1
                 }
