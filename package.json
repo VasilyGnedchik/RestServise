@@ -1,0 +1,21 @@
+{
+  "name": "rest-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Gnedchik Vasily <moiso4ok@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "hapi-response-utilities": "^2.0.0",
+    "htmlparser2": "^8.0.1",
+    "node-fetch": "^2.6.7",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
